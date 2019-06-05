@@ -1,0 +1,73 @@
+   header, footer {
+    font-size:20pt; /* Размер шрифта */
+    text-align: center; /* Выравнивание по центру */
+    margin-top: 1em; /* Отступ сверху */
+    margin-bottom: 1em; /* Отступ снизу */
+   }
+   table {
+    width: 1200px; /* Ширина таблиц */
+   }
+   td {
+    vertical-align: top; /* Выравнивание по верхнему краю ячейки */
+   }
+   ul {
+    padding: 0; /* Убираем поля */
+    margin-left: 1em; /* Отступ слева */
+    font-size: 16pt; /* Размер шрифта */
+   }
+   
+   #col1 {
+    width: 33%; /* Ширина первой колонки */    
+   }
+   #col2 {
+    width: 33%; /* Ширина третьей колонки */
+   }
+   #col3 {
+    width: 33%; /* Ширина третьей колонки */
+    */
+   }
+   #col1, #col2, #col3 {
+    padding: 10px; /* Поля вокруг текста */
+   }
+   #col1, #col2 {
+     border-right: 3px dotted #000; /* Параметры линии справа от текста */ 
+   }
+   .dish {
+    font-size: 24pt; /* Размер буквы */
+    font-weight:700;/* Жирный шрифт*/ 
+   }
+   .eating {
+    background: red; /* Цвет фона под заголовком */
+    color: white; /* Цвет текста */
+    padding: 3px; /* Поля вокруг текста */
+    border-radius: 3px; /* радиус скругления */
+   }
+   .divider {
+    color: red; /* Цвет текста */
+   }
+   .line  {
+    border-top: 2px dotted #000; /* Параметры линии */
+ b}
+   .marketing {
+    font-size:14pt; /* Размер шрифта */
+    margin-top: 1em; /* Отступ сверху */
+    margin-bottom: 0em; /* Отступ снизу */
+  
+   }
+   .supplement {
+    font-size:14pt; /* Размер шрифта */
+    text-align: center; /* Выравнивание по центру */
+    color: green; /* Цвет текста */
+    padding-top: 1em; /* Поле сверху */
+    padding-bottom: 1em; /* Поле снизу */
+   }
+   .discription {
+    font-size:14pt; /* Размер шрифта */
+    margin-top: 0em; /* Отступ сверху */
+    margin-bottom: 0em; /* Отступ снизу */
+   }
+   .discription::first-letter {
+    font-size: 36pt; /* Размер буквы */
+    float: left; /* Выравнивание по левому краю */
+    margin: -5px 5px -10px 0; /* Отступы вокруг буквы */
+   }
