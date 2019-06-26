@@ -1,4 +1,9 @@
 
+
+
+body {
+  max-width: 1290px;
+}
 header, footer {
   font-size:20pt; 
   text-align: center; 
@@ -20,17 +25,17 @@ ul {
     padding: 20px;
    } 
    .grid__item__wrap-title {
-    font-size: 20pt;
-    font-weight:700;
+    font-size: 20pt; /* Размер буквы */
+    font-weight:700;/* Жирный шрифт */
    }
    .grid__item__inner-title {
     border-bottom: 2px dotted #000;
    }
    .grid__item__eating {
-    background: red;
-    color: white;
-    padding: 3px;
-    border-radius: 3px;
+    background: red; /* Цвет фона под заголовком */
+    color: white; /* Цвет текста */
+    padding: 3px; /* Поля вокруг текста */
+    border-radius: 3px; /* радиус скругления */
    }
    .divider {
     color: red;
@@ -43,9 +48,9 @@ ul {
   
    }
    .grid__item__supp {
-    font-size:14pt;
-    text-align: center;
-    color: green;
+    font-size:14pt; /* Размер шрифта */
+    text-align: center; /* Выравнивание по центру */
+    color: green; /* Цвет текста */
     padding-top: 1em;
     padding-bottom: 1em;
    }
