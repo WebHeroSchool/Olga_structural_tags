@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Lobster|Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Yeseva+One&display=swap');
 * {
 	font-family: 'Playfair Display', serif;
 }
@@ -24,10 +24,12 @@ ul {
     padding: 20px;
    } 
    .grid__item__wrap-title {
+   	font-family: 'Yeseva One', cursive;
     font-size: 20pt;
     font-weight:700;
    }
    .grid__item__inner-title {
+
     border-bottom: 2px dotted #000;
    }
    .grid__item__eating {
@@ -47,7 +49,6 @@ ul {
   
    }
    .grid__item__supp {
-   	font-family: 'Lobster', cursive;
     font-size:14pt;
     text-align: center;
     color: green;
